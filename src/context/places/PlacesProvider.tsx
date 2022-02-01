@@ -1,7 +1,7 @@
 import { useEffect, useReducer } from "react";
 import { PlacesContext } from "./PlacesContext";
 import { placesReducer } from "./PlacesReducer";
-import { getUserLocation } from '../../helpers/getUserLocation';
+import { getUserLocation } from '../../helpers';
 
 export interface PlacesState {
   isLoading: boolean;
